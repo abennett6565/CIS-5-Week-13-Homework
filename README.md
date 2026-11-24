@@ -12,7 +12,7 @@ Work without a working video link is incomplete.
 
 The video is half the grade. Run both programs, then explain why each helper takes `const &` and what your struct's fields hold.
 
-**Your demo:** _add your link here_
+**Your demo:** https://drive.google.com/file/d/1zzkoxwjqZkiEXk98PtnPM5xJ3rZTiD6g/view?usp=sharing
 
 ## What to build
 
@@ -42,31 +42,34 @@ Two small programs.
 - README: the Part 1 sample run, then your proposal: the track, the struct and its fields, and three features you will build in week 14
 - No `char[]` needed
 
-## Sample session
+```
 
+```
+
+## Sample session
 Part 1:
 
 ```
-First: Sam
-Last: Lee
-Hello, Sam Lee!
-Length: 7
-Initials: SL
+First: Andrew
+Last: Bennett
+Hello, Andrew Bennett!
+Length: 14
+Initials: AB
 ```
 
 Part 2 (Mini Bank example):
 
 ```
-Ada 50.25
-Ben 120.5
+Bills 150
+Groceries 200
 ```
 
-Proposal (Mini Bank example):
+Proposal (Personal Budget):
 
 ```
-Track: Mini Bank
-Struct: Account { name, balance }
-Features: list accounts, deposit, withdraw with a balance check
+Track: Personal Budget
+Struct: Expense {category, amount}
+Planned features: list categories, check total expenses for a category, add new expense, add new category
 ```
 
 ## Starter
@@ -75,7 +78,7 @@ Features: list accounts, deposit, withdraw with a balance check
 
 ## Environment
 
-VS 2022 · **GitHub Codespaces** · Replit · library machines
+VSCode · **g++** · home PC
 
 ## Deliverables
 

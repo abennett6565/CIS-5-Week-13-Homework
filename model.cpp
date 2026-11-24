@@ -1,20 +1,32 @@
 #include <iostream>
 #include <string>
 
-// Practice 13 · Part 2 — Your Name
+// Practice 13 · Part 2 — Andrew Bennett
 // CIS 5 Week 13 · The struct your final needs
 
 // TODO: rename this struct and its fields to fit your track.
-struct Account {
-  std::string name;
-  double balance;
+struct Expense {
+  std::string category;
+  int amount;
 };
 
-void printAccount(const Account& a) {
+void printExpense(const Expense& a) {
   // TODO: print every field on one line, then "\n"
+  std::cout << a.category << " " << a.amount << "\n";
 }
 
 int main() {
   // TODO: make two records with braces, then print both with your helper
+  int N = 2;
+
+  Expense expenseRecord[N] = {
+    {"Bills", 150}, {"Groceries", 200}
+  };
+
+  for(int i = 0; i < N; i++)
+  {
+    printExpense(expenseRecord[i]);
+  }
+
   return 0;
 }
